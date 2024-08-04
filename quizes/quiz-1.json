@@ -11,7 +11,7 @@
           { "text": "Yes", "nextQuestionId": 2 },
           { "text": "No", "nextQuestionId": 3 }
         ],
-        "image": "url_to_image"
+        "image": "/img-1.jpeg"
       },
       {
         "id": 2,

@@ -2,10 +2,12 @@ import { useState, useEffect } from 'react';
 import './App.scss';
 import QuizContainer from './components/QuizRenderer';
 
+const quizLocation = '/quizes/quiz-1.json';
+
 function App() {
   const [quizData, setQuizData] = useState(null);
   useEffect(() => {
-    fetch('/quizes/quiz-1.json')
+    fetch(quizLocation)
       .then((response) => response.json())
       .then((data) => setQuizData(data.quiz))
       .catch((error) => console.error('Error loading quiz data:', error));
