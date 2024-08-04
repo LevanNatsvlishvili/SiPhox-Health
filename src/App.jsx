@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.scss';
 import QuizContainer from './components/QuizRenderer';
 
-const quizLocation = '/quizes/quiz-1.json';
+const quizLocation = '/quiz-1.json';
 
 function App() {
   const [quizData, setQuizData] = useState(null);
