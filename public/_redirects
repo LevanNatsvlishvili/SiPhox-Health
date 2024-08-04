@@ -1,3 +1,5 @@
-/quizes/\* /quizes/:splat 200
+# Allow direct access to JSON files
+/quizes/*  /quizes/:splat  200
 
-/\* /index.html 200
+# Redirect all other requests to index.html for React Router
+/*    /index.html   200
